@@ -15,6 +15,8 @@ cleaned_data|stem|61474ce5fb96dc56|71d3342238defba6|05c2d7b3199427b5|415739128||
 summary_statistics|stem|61474ce5fb96dc56|3aa6d5b6fd55bfbd|99e333b52699c5a3|1086213265||t18918.7245897323s|cf8da4f1f63abc75|10515|rds|vector|||0||
 create_summary_statistics|function|cf6eb633b88552ed||||||||||||||
 plots|stem|d2e1e9609164b914|7bc48f1fa3465eab|bb03488d9a189293|-252074359||t18921.6782224764s|0072a1a570cdd1fa|101|rds|vector|||1.56||
+create_report|function|243c6c7f9030ebe8||||||||||||||
+report|stem|8a03d7278bfc8164|cabbe108ecbfca67|c3b5fc02cdc369c1|-237041703||t18921.7031944842s|044b6a5ab253dca2|133|rds|vector|||0.83||
 count_contributions|function|8d304bb5670dac17||||||||||||||
 get_contributions|function|d0d5b812facf0f06||||||||||||||
 apply_filters|function|c133557fc90e70e4||||||||||||||
@@ -33,9 +35,8 @@ get_vote_name|function|a1c5a2590c5fd5fc||||||||||||||
 get_number_of_vote_pages|function|9c36783d80794217||||||||||||||
 get_vote_links|function|1202d12bc45ffddc||||||||||||||
 clean_sitting_days|function|9a0c828d757bf3f4||||||||||||||
-create_report|function|243c6c7f9030ebe8||||||||||||||
 make_url|function|31b89129129e4e3c||||||||||||||
-.Random.seed|object|ed91688257754b5c||||||||||||||
+.Random.seed|object|474b9f4dd522a449||||||||||||||
 add_contributions|function|427e19c6257dcaea||||||||||||||
 create_base_data|function|e4a77e1da73997e6||||||||||||||
 add_voting|function|5e71c314d3fcc1b6||||||||||||||
@@ -45,4 +46,3 @@ process_pdf|function|a0c947f09c26750a||||||||||||||
 get_voting_df|function|a6c5efeb0ec6ec3d||||||||||||||
 add_attendance|function|bf3f263158b8de80||||||||||||||
 get_raw_voting_data|function|c2c8bd059d02cf5a||||||||||||||
-report|stem|8a03d7278bfc8164|cabbe108ecbfca67|c3b5fc02cdc369c1|-237041703||t18921.7031944842s|044b6a5ab253dca2|133|rds|vector|||0.83||

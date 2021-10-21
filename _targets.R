@@ -43,7 +43,5 @@ list(
 
   # Create summary stats and visualisations
   tar_target(plots,
-             create_plots(cleaned_data)),
-  tar_target(report,
-             rmarkdown::render("README.Rmd"))
+             create_plots(cleaned_data))
 )

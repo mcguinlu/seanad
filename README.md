@@ -1,11 +1,23 @@
 
-# Report on Senator voting activity and attendance, 2020/2021
+## Report on Irish Senator voting activity and attendance, 2020/2021
 
-**Summary**
+### Summary
+
+This repository contains the code used to analysis the voting and
+attendance histories of members of the 26th Irish Seanad (Senate).
+
+The analysis found that a subset of Senators regularly do not vote on
+voting days. In addition, for some Senators, there was evidence of
+attendance (defined as either a recorded vote or a verbal contribution
+to the debate) on &lt;30% of the days they claimed they attended for the
+purpose of the parliamentary allowance.
+
+This analysis was performed using the `targets` framework. To re-run the
+pipeline, install and load the `targets` pacakge and call `tar_make()`.
 
  
 
-**Voting days**
+### Voting days
 
 The initial analysis was a straightforward summary of the proportion of
 voting days on which a member of the 26th Seanad cast at least one vote.
@@ -25,7 +37,7 @@ available up until 31st July 2021.
 
 <div class="figure" style="text-align: center">
 
-<img src="figures/seanad_percentage.png" alt="Summary of voting activity by Senator" width="50%" />
+<img src="figures/seanad_percentage.png" alt="Summary of voting activity by Senator" width="80%" />
 <p class="caption">
 Summary of voting activity by Senator
 </p>
@@ -45,7 +57,7 @@ investigation. Both David Norris and Denis O’Donovan cast a vote on only
 
  
 
-**Days voted on vs days claimed as attended**
+### Days voted on vs days claimed as attended
 
 However, it could be that due to the ongoing pandemic, these Senators
 did not attend voting days (potentially due to ill health or travel
@@ -60,13 +72,19 @@ If Senators were not voting on voting days because they were not in
 attendance, we would expect that as the number of days on which Senators
 recorded their attendance increases, so to does the number of days on
 which they voted (this assumption is indicated by the line on the
-chart).
+chart). This expectation is largely true for the majority of Senators
+but is not applicable to our outliers of interest (denoted in red and
+with labels in the plot below). David Norris and Denis O’Donovan
+attended far fewer voting days versus the number of days on which they
+claimed attendance. This indicates that the finding from the initial
+barchart - that these two Senators attended very few votes - is not due
+to their absence from the Seanad.
 
  
 
 <div class="figure" style="text-align: center">
 
-<img src="figures/seanad_attendance_vs_voting_days.png" alt="Number of voting days a Senator voted on versus number of voting days for which they claimed attendance. Line indicates a 1:1 relationship." width="50%" />
+<img src="figures/seanad_attendance_vs_voting_days.png" alt="Number of voting days a Senator voted on versus number of voting days for which they claimed attendance. Line indicates a 1:1 relationship." width="80%" />
 <p class="caption">
 Number of voting days a Senator voted on versus number of voting days
 for which they claimed attendance. Line indicates a 1:1 relationship.
@@ -76,22 +94,12 @@ for which they claimed attendance. Line indicates a 1:1 relationship.
 
  
 
-This expectation is largely true for the majority of Senators but is not
-applicable to our outliers of interest (denoted in red and with labels
-in the plot above). David Norris and Denis O’Donovan attended far fewer
-voting days versus the number of days on which they claimed attendance.
-This indicates that the finding from the initial barchart - that these
-two Senators attended very few votes - is not due to their absence from
-the Seanad.
+### Days with evidence of attendance vs days claimed as attended
 
-So, David Norris and Denis O’Donovan are not voting on many of the days
-they are supposedly present in the Seanad. But political life is
-complicated - they may have been present on the voting day, but due to
-bad luck, have consistently missed the actual votes.
-
- 
-
-**Days with evidence of attendance vs days claimed as attended**
+So, some Senators are not voting on many of the days they are supposedly
+present in the Seanad. But political life is complicated - they may have
+been present on the voting day, but due to bad luck, have consistently
+missed the actual votes.
 
 To examine this, my next step was to try and work out whether there was
 any record of Senators being present in the Seanad on days where they
@@ -113,7 +121,7 @@ which there was evidence for them actually being present.
 
 <div class="figure" style="text-align: center">
 
-<img src="figures/seanad_claimed_vs_actual_attendence.png" alt="Number of voting days with evidence of attendance (vote/contribution) vs number of voting days claimed as attended. Line indicates a 1:1 relationship." width="50%" />
+<img src="figures/seanad_claimed_vs_actual_attendence.png" alt="Number of voting days with evidence of attendance (vote/contribution) vs number of voting days claimed as attended. Line indicates a 1:1 relationship." width="80%" />
 <p class="caption">
 Number of voting days with evidence of attendance (vote/contribution) vs
 number of voting days claimed as attended. Line indicates a 1:1

@@ -117,7 +117,7 @@ presented in the section above, allowed me to plot the number of days on
 which a Senator claimed they were present against the number of days for
 which there was evidence for them actually being present.
 
-<!----------------------------------------------------------------------------->
+ 
 
 <div class="figure" style="text-align: center">
 
@@ -130,7 +130,7 @@ relationship.
 
 </div>
 
-<!----------------------------------------------------------------------------->
+ 
 
 On some (n=8) of the voting days on which David Norris did not vote, he
 made verbal contributions to the debate providing evidence of

@@ -62,12 +62,12 @@ Verbal contributions were obtained by scraping the official text for each sittin
 
 This data on verbal contributions, combined with the voting data presented in the section above, allowed me to plot the number of days on which a Senator claimed they were present against the number of days for which there was evidence for them actually being present.
 
-<!----------------------------------------------------------------------------->
+&nbsp;
 
 ```{r fig3, echo = FALSE, results="asis", fig.pos = "H", fig.cap='Number of voting days with evidence of attendance (vote/contribution) vs number of voting days claimed as attended. Line indicates a 1:1 relationship.',fig.align='center', out.width='80%'}
 knitr::include_graphics(file.path("figures/seanad_claimed_vs_actual_attendence.png"))
 ```
-<!----------------------------------------------------------------------------->
+&nbsp;
 
 On some (n=8) of the voting days on which David Norris did not vote, he made verbal contributions to the debate providing evidence of attendance. In contrast, Denis O'Donovan did not make any verbal contributions on days he claimed attendance for but did not vote on.
 

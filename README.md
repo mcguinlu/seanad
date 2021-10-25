@@ -3,7 +3,7 @@
 
 ### Summary
 
-This repository contains the code used to analysis the voting and
+This repository contains the code used to analyse the voting and
 attendance histories of members of the 26th Irish Seanad (Senate).
 
 The analysis found that a subset of Senators regularly do not vote on

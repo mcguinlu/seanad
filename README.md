@@ -9,7 +9,7 @@ attendance histories of members of the 26th Irish Seanad (Senate).
 The analysis found that a subset of Senators regularly do not vote on
 voting days. In addition, for some Senators, there was evidence of
 attendance (defined as either a recorded vote or a verbal contribution
-to the debate) on &lt;30% of the days they claimed they attended for the
+to the debate) on just &lt;30% of the days they claimed they attended for the
 purpose of the parliamentary allowance.
 
 This analysis was performed using the `targets` framework. To re-run the

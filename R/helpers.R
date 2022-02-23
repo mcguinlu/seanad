@@ -83,7 +83,9 @@ add_voting <- function(dat, raw_voting_data){
 add_attendance <- function(dat){
 
   pdf_file_2021 <-
-    "https://data.oireachtas.ie/ie/oireachtas/members/recordAttendanceForTaa/2021/2021-09-09_senators-verification-of-attendance-for-the-payment-of-taa-01-jan-2021-to-31-july-2021_en.pdf"
+    "https://data.oireachtas.ie/ie/oireachtas/members/recordAttendanceForTaa/2022/2022-01-13_senators-verification-of-attendance-for-the-payment-of-taa-01-jan-2021-to-30-november-2021_en.pdf"
+
+
   pdf_file_2020 <-
     "https://data.oireachtas.ie/ie/oireachtas/members/recordAttendanceForTaa/2021/2021-06-22_senators-verification-of-attendance-for-the-payment-of-taa-30-mar-2020-to-31-dec-2020_en.pdf"
 
